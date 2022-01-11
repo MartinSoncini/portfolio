@@ -1,7 +1,10 @@
 <template>
   <div>
-    <div>{{ year }}</div>
-    <div>Builded with Vue, Vuex and Vue-router</div>
+    <div>
+      <p>Builded with Vue, Vuex and Vue-router</p>
+      <p>Deployed with Netlify</p>
+    </div>
+    <div>© {{ year }}</div>
   </div>
 </template>
 

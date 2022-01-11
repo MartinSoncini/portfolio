@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Javascript",
+		"image": "https://i.ibb.co/2n1HnL6/javascript.png",
+		"alt": "Javascript logo"
+	},
+	{
+		"name": "Html 5",
+		"image": "https://i.ibb.co/RCKMBBv/html.png",
+		"alt": "Html 5 logo"
+	},
+	{
+		"name": "Css",
+		"image": "https://i.ibb.co/FYw96gm/css.png",
+		"alt": "Css logo"
+	},
+	{
+		"name": "Tailwind css",
+		"image": "https://i.ibb.co/x1f5JH7/tailwind.png",
+		"alt": "Tailwind css logo"
+	},
+	{
+		"name": "Vue js",
+		"image": "https://i.ibb.co/pZfCTMw/vue.png",
+		"alt": "Vue logo"
+	},
+	{
+		"name": "Nuxt js",
+		"image": "https://i.ibb.co/zsM4v3q/nuxt.png",
+		"alt": "Nuxt logo"
+	}
+]

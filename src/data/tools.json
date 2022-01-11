@@ -1,0 +1,37 @@
+[
+	{
+		"name": "Slack",
+		"image": "https://i.ibb.co/3WW1Bzv/slack.png",
+		"alt": "Slack logo"
+	},
+	{
+		"name": "Trello",
+		"image": "https://i.ibb.co/qrhM62s/trello.png",
+		"alt": "Trello logo"
+	},
+	{
+		"name": "GitHub",
+		"image": "https://i.ibb.co/cN8Th7K/github.png",
+		"alt": "GitHub logo"
+	},
+	{
+		"name": "Clockify",
+		"image": "https://i.ibb.co/m4Qd3c5/clockify.png",
+		"alt": "Clockify logo"
+	},
+	{
+		"name": "Notion",
+		"image": "https://i.ibb.co/305vtkT/notion.jpg",
+		"alt": "Notion logo"
+	},
+	{
+		"name": "Around",
+		"image": "https://i.ibb.co/m6XzK03/around.png",
+		"alt": "Around logo"
+	},
+	{
+		"name": "Yarn",
+		"image": "https://i.ibb.co/47Z6BY7/yarn.png",
+		"alt": "Yarn logo"
+	}
+]

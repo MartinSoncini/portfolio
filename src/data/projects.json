@@ -1,0 +1,44 @@
+[
+	{
+		"name": "Entreno Libre",
+		"image": "https://i.ibb.co/m0D18pG/entreno-libre.png",
+		"alt": "Entreno libre page",
+		"description": "",
+		"link": "https://beta.app.entrenolibre.com/"
+	},
+	{
+		"name": "Cryptic",
+		"image": "https://i.ibb.co/nbrdVT1/cryptic.png",
+		"alt": "Cryptic page",
+		"description": "",
+		"link": "https://cryptic.rusticit.com/"
+	},
+	{
+		"name": "Rusti.codes",
+		"image": "https://i.ibb.co/1bWgjyk/rusti-codes.png",
+		"alt": "Rusti codes page",
+		"description": "",
+		"link": "https://rusti.codes/"
+	},
+	{
+		"name": "Rustic IT",
+		"image": "https://i.ibb.co/87CBcqN/rusticit.png",
+		"alt": "Rustic it page",
+		"description": "",
+		"link": "https://rusticit.com/"
+	},
+	{
+		"name": "Wonder Academy",
+		"image": "https://i.ibb.co/n88wqB6/wonder-academy.png",
+		"alt": "Wonder academy page",
+		"description": "",
+		"link": "https://wonder-academy.netlify.app/"
+	},
+	{
+		"name": "Linea Stop",
+		"image": "https://i.ibb.co/X2ngv7y/linea-stop.png",
+		"alt": "Linea stop page",
+		"description": "",
+		"link": "https://lineastop.net/"
+	}
+]
