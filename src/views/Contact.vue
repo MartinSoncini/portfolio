@@ -1,20 +1,16 @@
 <template>
   <div>
-    <div>
-      <Card v-for="net in socialMedia" :key="net.name" v-bind="net" />
+    <div v-for="net in socialMedia" :key="net.icon">
+      <img src="" alt="" />
+      <a target="_blank" :href="net.link">{{ net.description || net.link }}</a>
     </div>
-    <div></div>
   </div>
 </template>
 
 <script>
 import socialMedia from "@/data/contact.json";
-import Card from "@/components/Card.vue";
 export default {
   name: "Contact",
-  components: {
-    Card,
-  },
   data() {
     return {
       socialMedia,

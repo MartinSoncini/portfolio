@@ -1,7 +1,8 @@
 [
 	{
 		"icon": "mail",
-		"link": "mailto:soncinimartin@gmail.com"
+		"link": "mailto:soncinimartin@gmail.com",
+		"description": "soncinimartin@gmail.com"
 	},
 	{
 		"icon": "github",
@@ -13,6 +14,7 @@
 	},
 	{
 		"icon": "whatsapp",
-		"link": "https://wa.me/5492284623157"
+		"link": "https://wa.me/5492284623157",
+		"description": "+54 9 (2284) 62-3157"
 	}
 ]

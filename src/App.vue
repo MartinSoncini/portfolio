@@ -1,8 +1,8 @@
 <template>
-  <div :class="[ligthStyleMode ? 'ligth' : 'dark']" class="flex">
+  <div :class="[ligthStyleMode ? 'ligth' : 'dark']">
     <Header />
     <div class="container m-auto">
-      <router-view class="py-20" />
+      <router-view class="py-24 min-h-screen" />
     </div>
     <Footer />
   </div>
@@ -24,11 +24,3 @@ export default {
   },
 };
 </script>
-<style lang="postcss" scoped>
-.dark {
-  @apply bg-gray-900 text-gray-100;
-}
-.ligth {
-  @apply bg-gray-100 text-gray-900;
-}
-</style>

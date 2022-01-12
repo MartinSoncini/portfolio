@@ -1,20 +1,20 @@
 <template>
   <div>
-    <Card
+    <ProjectsCard
       v-for="project in projects"
       :key="project.name"
       v-bind="project"
-    ></Card>
+    ></ProjectsCard>
   </div>
 </template>
 
 <script>
 import projects from "@/data/projects.json";
-import Card from "@/components/Card.vue";
+import ProjectsCard from "@/components/ProjectsCard.vue";
 export default {
   name: "Projects",
   components: {
-    Card,
+    ProjectsCard,
   },
   data() {
     return {

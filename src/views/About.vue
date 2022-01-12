@@ -1,12 +1,16 @@
 <template>
-  <div>
+  <div class="flex flex-col">
     <div>
       <p>Skills</p>
-      <Card v-for="skill in skills" :key="skill.name" v-bind="skill" />
+      <div class="flex justify-between">
+        <AboutCard v-for="skill in skills" :key="skill.name" v-bind="skill" />
+      </div>
     </div>
     <div>
       <p>Tools</p>
-      <Card v-for="tool in tools" :key="tool.name" v-bind="tool" />
+      <div class="flex justify-between">
+        <AboutCard v-for="tool in tools" :key="tool.name" v-bind="tool" />
+      </div>
     </div>
   </div>
 </template>
@@ -14,11 +18,11 @@
 <script>
 import skills from "@/data/skills.json";
 import tools from "@/data/tools.json";
-import Card from "@/components/Card.vue";
+import AboutCard from "@/components/AboutCard.vue";
 export default {
   name: "About",
   components: {
-    Card,
+    AboutCard,
   },
   data() {
     return {

@@ -1,23 +1,29 @@
 <template>
-  <div>
-    <img :src="image" alt="profile image" />
-    <div>
-      <p>Martin Soncini</p>
-      <p>
-        Hello! I’m Martin. I'm a front-end developer who is passionate about
-        VUE, building great user experiences, fighting for simplicity over
-        complexity and constantly learning. When I'm not coding, you'll find me
-        playing football or singing with my guitar.
-      </p>
+  <div class="h-full flex items-center justify-center">
+    <div class="flex flex-col w-1/2 items-center border-green p-10">
+      <img :src="image" alt="profile image" class="rounded-full h-40 w-40" />
+      <div class="">
+        <p>Hello! I’m <span class="bold-green">Martin</span>.</p>
+        <p>
+          I'm a front-end developer who is passionate about
+          <span class="bold-green">VUE</span>, building great user experiences,
+          fighting for simplicity over complexity and constantly learning.
+        </p>
+        <p>
+          When I'm not <span class="font-mono">coding</span>, you'll find me
+          playing football ⚽ or singing with my guitar 🎸.
+        </p>
+      </div>
     </div>
   </div>
 </template>
+
 <script>
 export default {
   name: "Home",
   computed: {
     image() {
-      return "https://i.ibb.co/MPf1ySG/profile-Image.jpg";
+      return "https://i.ibb.co/LtbX41c/IMG-4785.png";
     },
   },
 };
