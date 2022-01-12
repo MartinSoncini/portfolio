@@ -5,11 +5,11 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    styleMode: "light",
+    ligthStyleMode: false,
   },
   mutations: {
-    changeStyleMode(state, { mode }) {
-      state.styleMode = mode;
+    changeStyleMode(state) {
+      state.ligthStyleMode = !state.ligthStyleMode;
     },
   },
   actions: {},

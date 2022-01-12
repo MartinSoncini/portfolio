@@ -3,7 +3,7 @@
     <p>{{ name }}</p>
     <img :src="image" :alt="alt" />
     <p>{{ description }}</p>
-    <a :href="link">{{ link }}</a>
+    <a target="_blank" :href="link">{{ link }}</a>
   </div>
 </template>
 
