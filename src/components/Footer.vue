@@ -1,7 +1,7 @@
 <template>
   <div
     class="w-full h-10 fixed bottom-0"
-    :class="[ligthStyleMode ? 'ligth-header-footer' : 'dark-header-footer']"
+    :class="[lightStyleMode ? 'light-card' : 'dark-card']"
   >
     <div class="container m-auto flex items-center h-full justify-between">
       <div class="flex">
@@ -23,7 +23,7 @@ export default {
     year() {
       return new Date().getFullYear();
     },
-    ...mapState(["ligthStyleMode"]),
+    ...mapState(["lightStyleMode"]),
   },
 };
 </script>

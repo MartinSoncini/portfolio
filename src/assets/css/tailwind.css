@@ -5,13 +5,13 @@
 .dark {
   @apply bg-gray-900 text-gray-100;
 }
-.ligth {
+.light {
   @apply bg-gray-100 text-gray-900;
 }
-.dark-header-footer {
+.dark-card {
 	@apply bg-gray-700 text-gray-100;
 }
-.ligth-header-footer {
+.light-card {
 	@apply bg-gray-300 text-gray-900;
 }
 .bold-green {

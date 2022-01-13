@@ -1,5 +1,5 @@
 <template>
-  <div :class="[ligthStyleMode ? 'ligth' : 'dark']">
+  <div :class="[lightStyleMode ? 'light' : 'dark']" class="bg-pattern">
     <Header />
     <div class="container m-auto">
       <router-view class="py-24 min-h-screen" />
@@ -20,7 +20,7 @@ export default {
     Footer,
   },
   computed: {
-    ...mapState(["ligthStyleMode"]),
+    ...mapState(["lightStyleMode"]),
   },
 };
 </script>
