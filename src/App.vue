@@ -1,5 +1,5 @@
 <template>
-  <div :class="[lightStyleMode ? 'light' : 'dark']" class="bg-pattern">
+  <div :class="[lightStyleMode ? 'light' : 'dark']" class="bg-pattern text-lg">
     <Header />
     <div class="container m-auto">
       <router-view class="py-24 min-h-screen" />
@@ -24,3 +24,9 @@ export default {
   },
 };
 </script>
+
+<style lang="postcss" scoped>
+.bg-pattern {
+  background-image: url("./assets/bg.svg");
+}
+</style>

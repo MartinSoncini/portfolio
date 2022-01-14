@@ -19,12 +19,8 @@
           class="rounded-full border border-green-600 h-7 w-7"
           @click="changeStyleMode"
         >
-          <img
-            v-if="lightStyleMode"
-            src="@/assets/moon.svg"
-            alt="enable dark mode"
-          />
-          <img v-else src="@/assets/sun.svg" alt="enable light mode" />
+          <fa-icon v-if="lightStyleMode" :icon="['fas', 'moon']" />
+          <fa-icon v-else :icon="['fas', 'sun']" />
         </button>
       </div>
     </div>
@@ -37,7 +33,6 @@ export default {
   name: "Header",
   data() {
     return {
-      currentPage: "Home",
       routerPages: [
         { name: "Home", path: "/" },
         { name: "Projects", path: "/projects" },
@@ -47,19 +42,11 @@ export default {
     };
   },
   computed: {
-    styleMode() {
-      return this.lightStyleMode ? "Dark" : "light";
-    },
     ...mapState(["lightStyleMode"]),
-  },
-  watch: {
-    $route({ name }) {
-      this.currentPage = name;
-    },
   },
   methods: {
     setCurrentPage(name) {
-      return this.currentPage === name ? "bold-green " : "";
+      return this.$route.name === name ? "bold-green " : "";
     },
     ...mapMutations(["changeStyleMode"]),
   },

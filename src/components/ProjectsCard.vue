@@ -6,10 +6,10 @@
     <img :src="image" :alt="alt" class="w-1/2" />
     <div class="flex flex-col mx-10 justify-between">
       <div>
-        <p>{{ name }}</p>
+        <p class="text-xl font-bold">{{ name }}</p>
         <p>{{ description }}</p>
       </div>
-      <a target="_blank" :href="link">Link</a>
+      <a target="_blank" :href="link" class="bold-green">Link</a>
     </div>
   </div>
 </template>

@@ -1,15 +1,25 @@
 <template>
   <div class="flex flex-col">
     <div>
-      <p>Skills</p>
-      <div class="flex justify-between">
-        <AboutCard v-for="skill in skills" :key="skill.name" v-bind="skill" />
+      <p class="subtitle">Skills</p>
+      <div class="flex flex-wrap">
+        <AboutCard
+          v-for="skill in skills"
+          :key="skill.name"
+          v-bind="skill"
+          class="mr-5"
+        />
       </div>
     </div>
     <div>
-      <p>Tools</p>
-      <div class="flex justify-between">
-        <AboutCard v-for="tool in tools" :key="tool.name" v-bind="tool" />
+      <p class="subtitle">Tools</p>
+      <div class="flex flex-wrap">
+        <AboutCard
+          v-for="tool in tools"
+          :key="tool.name"
+          v-bind="tool"
+          class="mr-5"
+        />
       </div>
     </div>
   </div>
@@ -32,3 +42,9 @@ export default {
   },
 };
 </script>
+
+<style lang="postcss" scoped>
+.subtitle {
+  @apply uppercase text-lg font-bold;
+}
+</style>

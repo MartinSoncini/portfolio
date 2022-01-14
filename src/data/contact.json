@@ -1,20 +1,30 @@
 [
 	{
-		"icon": "mail",
+		"icon": "envelope",
+		"type": "fas",
 		"link": "mailto:soncinimartin@gmail.com",
 		"description": "soncinimartin@gmail.com"
 	},
 	{
-		"icon": "github",
-		"link": "https://github.com/MartinSoncini/"
-	},
-	{
 		"icon": "linkedin",
+		"type": "fab",
 		"link": "https://www.linkedin.com/in/soncinimartin/"
 	},
 	{
+		"icon": "github",
+		"type": "fab",
+		"link": "https://github.com/MartinSoncini/"
+	},
+	{
 		"icon": "whatsapp",
+		"type": "fab",
 		"link": "https://wa.me/5492284623157",
 		"description": "+54 9 (2284) 62-3157"
+	},
+	{
+		"icon": "map-marker-alt",
+		"type": "fas",
+		"link": "",
+		"description": "Olavarría, Buenos Aires, Argentina"
 	}
 ]
